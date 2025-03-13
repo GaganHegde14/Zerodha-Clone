@@ -1,7 +1,7 @@
 import React from "react";
 
-function Pricingpage() {
+function ProductPage() {
   return <div></div>;
 }
 
-export default Pricingpage;
+export default ProductPage;
