@@ -8,6 +8,7 @@ import ProductPage from "./landing_page/products/ProductPage";
 import SupportPage from "./landing_page/support/SupportPage";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
+import NotFound from "./landing_page/NotFound";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
         <Route path="/pricing" element={<PricingPage />}></Route>
         <Route path="/product" element={<ProductPage />}></Route>
         <Route path="/support" element={<SupportPage />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
 
       <Footer />
