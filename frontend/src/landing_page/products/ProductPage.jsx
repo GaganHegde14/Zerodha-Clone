@@ -4,10 +4,13 @@ import Hero from "./Hero";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 import Universe from "./Universe";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 function ProdctPage() {
   return (
     <>
+      <Navbar />
       <Hero />
       <LeftSection
         imageURL="Images/kite.png"
@@ -53,6 +56,8 @@ function ProdctPage() {
         blog.
       </p>
       <Universe />
+
+      <Footer />
     </>
   );
 }
